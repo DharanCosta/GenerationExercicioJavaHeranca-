@@ -2,20 +2,16 @@ package Heranca;
 
 public class Exer1Cavalo extends Exer1Animais{
 	
-	private boolean corre;
+	
 	
 	// MÉTODO
-	
-	public void correr() {
-		this.corre=true;
+	@Override
+	public void som() {
+		System.out.println("O cavalo relincha");
 	}
-
-	public boolean isCorre() {
-		return corre;
-	}
-
-	public void setCorre(boolean corre) {
-		this.corre = corre;
+	@Override
+	public void movimento() {
+		System.out.println("O cavalo corre...");
 	}
 	
 }

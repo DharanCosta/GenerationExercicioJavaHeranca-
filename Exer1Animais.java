@@ -5,9 +5,15 @@ public class Exer1Animais {
 	// ATRIBUTOS
 		private String nome;
 		private int idade;
-		private String som;
 		
 	// MÉTODOS	
+		
+		public void som() {
+			System.out.println("Os animais emitem som");
+		}
+		public void movimento() {
+			System.out.println("Os animais se movimentam");
+		}
 		
 		public String getNome() {
 			return nome;
@@ -21,11 +27,6 @@ public class Exer1Animais {
 		public void setIdade(int idade) {
 			this.idade = idade;
 		}
-		public String getSom() {
-			return som;
-		}
-		public void setSom(String som) {
-			this.som = som;
-		}		
+	
 		
 }
